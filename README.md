@@ -1,16 +1,13 @@
-## Hi there 👋
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=blur&height=260&color=0:0f172a,50:312e81,100:020617&fontColor=ffffff&animation=fadeIn"
+    alt="Profile banner"
+  />
+</p>
 
-<!--
-**Wickefest/Wickefest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=600&lines=Welcome!;Nice+to+meet+you;I+build+AI+and+software+projects"
+    alt="Typing animation"
+  />
+</p>
