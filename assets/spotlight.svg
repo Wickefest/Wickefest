@@ -1,6 +1,6 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="purpleLight" cx="50%" cy="50%" r="50%">
+    <radialGradient id="purpleLight" cx="70%" cy="70%" r="70%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
       <stop offset="18%" stop-color="#c4b5fd" stop-opacity="0.8"/>
       <stop offset="45%" stop-color="#7c3aed" stop-opacity="0.45"/>
@@ -26,7 +26,9 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="360" fill="#020617"/>
+  <clipPath id="roundedClip">
+    <rect x="0" y="0" width="1200" height="360" rx="36" ry="36"/>
+  </clipPath>
 
   <!-- Soft background glow so the full banner does not feel empty -->
   <circle cx="600" cy="180" r="430" fill="#312e81" opacity="0.18" filter="url(#blur)"/>
