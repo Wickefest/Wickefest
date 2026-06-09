@@ -12,8 +12,6 @@
 <hr>
 
 
-
-<h2> About Me</h2>
 <!-- About Me-->
 <h2>🚀 About Me</h2>
 
@@ -21,8 +19,7 @@
 
 <ul>
   <li>🌟 I like exploring new tech innovations and ideas.</li>
-  <li>🥜 Life's tough, but walnut is tougher.</li>
-  <li>🚧 I'm no expert. I just want it anti-tough.</li>
+  <li>🥜 Life's tough, but walnut is tougher. I'm no expert. I just want it anti-tough.</li>
   <li>📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a></li>
 </ul>
 
