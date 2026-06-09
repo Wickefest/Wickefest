@@ -1,1 +1,41 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spotlightPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#a78bfa" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#312e81" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
 
+    <radialGradient id="spotlightBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="22%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#1d4ed8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="#020617"/>
+
+  <circle r="230" fill="url(#spotlightPurple)" filter="url(#softBlur)" opacity="0.95">
+    <animate attributeName="cx" values="350;600;850;600;350" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="160;70;160;250;160" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle r="210" fill="url(#spotlightBlue)" filter="url(#softBlur)" opacity="0.8">
+    <animate attributeName="cx" values="850;600;350;600;850" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="160;250;160;70;160" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="50%" y="45%" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="72" font-family="Arial, sans-serif" font-weight="700">
+    Welcome!
+  </text>
+
+  <text x="50%" y="62%" text-anchor="middle" dominant-baseline="middle" fill="#ddd6fe" font-size="28" font-family="Arial, sans-serif" font-weight="500">
+    Nice to meet you
+  </text>
+</svg>
