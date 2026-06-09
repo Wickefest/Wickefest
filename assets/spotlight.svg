@@ -160,7 +160,7 @@
 
     <!-- Subtitle neon text -->
     <text
-      x="60%"
+      x="55%"
       y="63%"
       text-anchor="middle"
       dominant-baseline="middle"
