@@ -3,8 +3,8 @@
 </p>
 
 <h1 align="center">
-  🙌 Hello, I am Alexander Chua~ at your service! 🍀
+   Hello, I am Alexander Chua~ at your service! 🙌
 </h1>
 <p align="center">
-  <em> Final Year CS AI/ML student @ UOL </em>  
+  <em> Final Year CS AI/ML student @ UOL 🍀 </em>  
 </p>
