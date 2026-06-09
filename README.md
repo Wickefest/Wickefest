@@ -4,7 +4,7 @@
 
 <!-- Personal Introduction -->
 <h1 align="center">
-   Hello, I am Alexander Chua~ at your service! 🙌
+   Hi, I'm Alex Chua ~ at your service! 🙌
 </h1>
 <p align="center">
   <em> Final Year CS AI/ML student @ UOL 🍀 </em>  
@@ -12,9 +12,21 @@
 <hr>
 
 <!-- About Me-->
-<h2> About me </h2>
+<table>
+  <tr>
+    <td width="35%" align="center">
+      <img src="assets/dance of spring.gif" width="220" alt="About GIF" />
+    </td>
+    <td width="65%" valign="top">
+
+<h2>About Me</h2>
+
 <p>
-🌟Likes to explore new tech innovation and ideas!
-Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough. 
-📧Let’s connect! alexanderrchuaa@gmail.com. Will respond as soon as possible~
+  🌟 Likes to explore new tech innovation and ideas!<br />
+  Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.<br />
+  📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
 </p>
+
+</td>
+  </tr>
+</table>
