@@ -15,9 +15,9 @@
 
 <h2> About Me</h2>
 <!-- About Me-->
-<table>
-  <tr>
-      <td width="58%" valign="top">
+<table style="border:none;">
+  <tr style="border:none;">
+      <td width="58%" valign="top" style="border:none;">
         <ul>
           <li>🌟 Likes to explore new tech innovation and ideas!</li>
           <li>🥜 Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.</li>
