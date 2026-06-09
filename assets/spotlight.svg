@@ -117,7 +117,7 @@
       text-anchor="middle"
       dominant-baseline="middle">
 
-      <text x="50%" y="46%" opacity="1" fill="#ffffff" filter="url(#neonText)">
+      <text x="50%" y="50%" opacity="1" fill="#ffffff" filter="url(#neonText)">
         Welcome!
         <animate
           attributeName="opacity"
@@ -127,7 +127,7 @@
           repeatCount="indefinite"/>
       </text>
 
-      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+      <text x="50%" y="50%" opacity="0" fill="#ffffff" filter="url(#neonText)">
         Selamat Datang!
         <animate
           attributeName="opacity"
@@ -137,7 +137,7 @@
           repeatCount="indefinite"/>
       </text>
 
-      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+      <text x="50%" y="50%" opacity="0" fill="#ffffff" filter="url(#neonText)">
         Bienvenue!
         <animate
           attributeName="opacity"
@@ -147,7 +147,7 @@
           repeatCount="indefinite"/>
       </text>
 
-      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+      <text x="50%" y="50%" opacity="0" fill="#ffffff" filter="url(#neonText)">
         ようこそ!
         <animate
           attributeName="opacity"
