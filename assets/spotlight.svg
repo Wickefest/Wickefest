@@ -1,12 +1,19 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="purpleLight" cx="70%" cy="70%" r="70%">
+    <!-- Rounded rectangle boundary -->
+    <clipPath id="roundedClip">
+      <rect x="0" y="0" width="1200" height="360" rx="36" ry="36"/>
+    </clipPath>
+
+    <!-- Purple spotlight -->
+    <radialGradient id="purpleLight" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
-      <stop offset="18%" stop-color="#c4b5fd" stop-opacity="0.8"/>
+      <stop offset="18%" stop-color="#c4b5fd" stop-opacity="0.80"/>
       <stop offset="45%" stop-color="#7c3aed" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Blue spotlight -->
     <radialGradient id="blueLight" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
       <stop offset="20%" stop-color="#7dd3fc" stop-opacity="0.65"/>
@@ -14,70 +21,78 @@
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Pink spotlight -->
     <radialGradient id="pinkLight" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"/>
-      <stop offset="20%" stop-color="#f0abfc" stop-opacity="0.5"/>
-      <stop offset="55%" stop-color="#a21caf" stop-opacity="0.3"/>
+      <stop offset="20%" stop-color="#f0abfc" stop-opacity="0.50"/>
+      <stop offset="55%" stop-color="#a21caf" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Soft blur for the spotlight glow -->
     <filter id="blur">
       <feGaussianBlur stdDeviation="48"/>
     </filter>
   </defs>
 
-  <clipPath id="roundedClip">
-    <rect x="0" y="0" width="1200" height="360" rx="36" ry="36"/>
-  </clipPath>
+  <!-- Clip everything to rounded corners -->
+  <g clip-path="url(#roundedClip)">
+    <!-- Main dark background -->
+    <rect width="1200" height="360" fill="#020617"/>
 
-  <!-- Soft background glow so the full banner does not feel empty -->
-  <circle cx="600" cy="180" r="430" fill="#312e81" opacity="0.18" filter="url(#blur)"/>
+    <!-- Soft center glow so the banner does not feel empty -->
+    <circle cx="600" cy="180" r="430" fill="#312e81" opacity="0.18" filter="url(#blur)"/>
 
-  <!-- Spotlight 1: purple, slow orbit -->
-  <circle r="230" fill="url(#purpleLight)" filter="url(#blur)" opacity="0.9">
-    <animate attributeName="cx" values="120;420;980;760;260;120" dur="6.2s" begin="0s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="80;280;110;310;160;80" dur="5.4s" begin="-1.1s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="190;260;220;280;200;190" dur="4.8s" begin="-0.6s" repeatCount="indefinite"/>
-  </circle>
+    <!-- Purple moving spotlight -->
+    <circle r="230" fill="url(#purpleLight)" filter="url(#blur)" opacity="0.90">
+      <animate attributeName="cx" values="120;420;980;760;260;120" dur="6.2s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;280;110;310;160;80" dur="5.4s" begin="-1.1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="190;260;220;280;200;190" dur="4.8s" begin="-0.6s" repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Spotlight 2: blue, different path and timing -->
-  <circle r="220" fill="url(#blueLight)" filter="url(#blur)" opacity="0.78">
-    <animate attributeName="cx" values="1080;780;180;520;920;1080" dur="5.1s" begin="-1.8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="290;70;240;100;310;290" dur="6.7s" begin="-0.4s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="210;250;180;270;220;210" dur="5.9s" begin="-2s" repeatCount="indefinite"/>
-  </circle>
+    <!-- Blue moving spotlight -->
+    <circle r="220" fill="url(#blueLight)" filter="url(#blur)" opacity="0.78">
+      <animate attributeName="cx" values="1080;780;180;520;920;1080" dur="5.1s" begin="-1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="290;70;240;100;310;290" dur="6.7s" begin="-0.4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="210;250;180;270;220;210" dur="5.9s" begin="-2s" repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Spotlight 3: faint pink, adds randomness -->
-  <circle r="180" fill="url(#pinkLight)" filter="url(#blur)" opacity="0.55">
-    <animate attributeName="cx" values="600;1040;860;300;140;600" dur="7.4s" begin="-2.6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="40;170;330;270;90;40" dur="4.9s" begin="-1.3s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="150;210;170;230;180;150" dur="6.3s" begin="-3s" repeatCount="indefinite"/>
-  </circle>
+    <!-- Pink moving spotlight -->
+    <circle r="180" fill="url(#pinkLight)" filter="url(#blur)" opacity="0.55">
+      <animate attributeName="cx" values="600;1040;860;300;140;600" dur="7.4s" begin="-2.6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;170;330;270;90;40" dur="4.9s" begin="-1.3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="150;210;170;230;180;150" dur="6.3s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Dark overlay to keep text readable -->
-  <rect width="1200" height="360" fill="#020617" opacity="0.22"/>
+    <!-- Dark overlay to keep text readable -->
+    <rect width="1200" height="360" fill="#020617" opacity="0.22"/>
 
-  <text
-    x="50%"
-    y="46%"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    fill="white"
-    font-size="76"
-    font-family="Arial, sans-serif"
-    font-weight="700">
-    Welcome!
-  </text>
+    <!-- Title -->
+    <text
+      x="50%"
+      y="46%"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      fill="white"
+      font-size="78"
+      font-family="'Josefin Sans', 'Montserrat', Arial, sans-serif"
+      font-weight="700"
+      letter-spacing="1">
+      Welcome!
+    </text>
 
-  <text
-    x="50%"
-    y="63%"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    fill="#ddd6fe"
-    font-size="30"
-    font-family="Arial, sans-serif"
-    font-weight="500">
-    Nice to meet you
-  </text>
+    <!-- Subtitle -->
+    <text
+      x="50%"
+      y="63%"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      fill="#ddd6fe"
+      font-size="30"
+      font-family="'Montserrat', 'Lato', Arial, sans-serif"
+      font-weight="400"
+      letter-spacing="0.5">
+      Wickefest Play
+    </text>
+  </g>
 </svg>
