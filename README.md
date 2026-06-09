@@ -17,7 +17,7 @@
 <!-- About Me-->
 <h2>🚀 About Me</h2>
 
-<img align="right" src="assets/about.gif" width="360" alt="Coding GIF" />
+<img align="right" src="assets/dance of spring.gif" width="360" alt="Coding GIF" />
 
 <ul>
   <li>🌟 I like exploring new tech innovations and ideas.</li>
