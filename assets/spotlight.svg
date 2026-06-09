@@ -29,9 +29,43 @@
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Soft blur for the spotlight glow -->
+    <!-- Green spotlight -->
+    <radialGradient id="greenLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="20%" stop-color="#00FF00" stop-opacity="0.50"/>
+      <stop offset="55%" stop-color="#228B22" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Soft blur for spotlight glow -->
     <filter id="blur">
       <feGaussianBlur stdDeviation="48"/>
+    </filter>
+
+    <!-- Neon glow for title text -->
+    <filter id="neonText" x="-50%" y="-80%" width="200%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="smallGlow"/>
+      <feGaussianBlur stdDeviation="8" result="mediumGlow"/>
+      <feGaussianBlur stdDeviation="16" result="largeGlow"/>
+
+      <feMerge>
+        <feMergeNode in="largeGlow"/>
+        <feMergeNode in="mediumGlow"/>
+        <feMergeNode in="smallGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Softer neon glow for subtitle -->
+    <filter id="subtleNeonText" x="-40%" y="-70%" width="180%" height="240%">
+      <feGaussianBlur stdDeviation="2" result="smallGlow"/>
+      <feGaussianBlur stdDeviation="5" result="mediumGlow"/>
+
+      <feMerge>
+        <feMergeNode in="mediumGlow"/>
+        <feMergeNode in="smallGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
@@ -64,35 +98,79 @@
       <animate attributeName="r" values="150;210;170;230;180;150" dur="6.3s" begin="-3s" repeatCount="indefinite"/>
     </circle>
 
+    <!-- Green moving spotlight -->
+     <circle r="140" fill="url(#greenLight)" filter="url(#blur)" opacity="0.37">
+      <animate attributeName="cx" values="800;1040;860;300;140;600" dur="4.3s" begin="-3.4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40;170;330;270;90;40" dur="2.9s" begin="-2.1s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="150;210;170;230;180;150" dur="4.3s" begin="-4s" repeatCount="indefinite"/>
+    </circle>
+
     <!-- Dark overlay to keep text readable -->
-    <rect width="1200" height="360" fill="#020617" opacity="0.22"/>
+    <rect width="1200" height="360" fill="#020617" opacity="0.28"/>
 
-    <!-- Title -->
-    <text
-      x="50%"
-      y="46%"
-      text-anchor="middle"
-      dominant-baseline="middle"
-      fill="white"
-      font-size="78"
-      font-family="'Josefin Sans', 'Montserrat', Arial, sans-serif"
+    <!-- Animated multilingual neon title with smooth fade loop -->
+    <g
+      font-family="'Josefin Sans', 'Montserrat', 'Noto Sans', 'Noto Sans JP', 'Noto Sans KR', Arial, sans-serif"
+      font-size="74"
       font-weight="700"
-      letter-spacing="1">
-      Welcome!
-    </text>
+      letter-spacing="1"
+      text-anchor="middle"
+      dominant-baseline="middle">
 
-    <!-- Subtitle -->
+      <text x="50%" y="46%" opacity="1" fill="#ffffff" filter="url(#neonText)">
+        Welcome!
+        <animate
+          attributeName="opacity"
+          values="0;1;1;0;0;0;0;0;0;0;0;0;0"
+          keyTimes="0;0.04;0.20;0.25;0.26;0.45;0.46;0.65;0.66;0.85;0.86;0.99;1"
+          dur="16s"
+          repeatCount="indefinite"/>
+      </text>
+
+      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+        Selamat Datang!
+        <animate
+          attributeName="opacity"
+          values="0;0;0;0;0;1;1;0;0;0;0;0;0"
+          keyTimes="0;0.04;0.20;0.25;0.26;0.29;0.45;0.50;0.51;0.70;0.71;0.99;1"
+          dur="16s"
+          repeatCount="indefinite"/>
+      </text>
+
+      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+        Bienvenue!
+        <animate
+          attributeName="opacity"
+          values="0;0;0;0;0;0;0;0;0;1;1;0;0"
+          keyTimes="0;0.04;0.20;0.25;0.26;0.29;0.45;0.50;0.51;0.54;0.70;0.75;1"
+          dur="16s"
+          repeatCount="indefinite"/>
+      </text>
+
+      <text x="50%" y="46%" opacity="0" fill="#ffffff" filter="url(#neonText)">
+        ようこそ!
+        <animate
+          attributeName="opacity"
+          values="0;0;0;0;0;0;0;0;0;0;0;1;1;0"
+          keyTimes="0;0.04;0.20;0.25;0.26;0.29;0.45;0.50;0.51;0.54;0.70;0.75;0.95;1"
+          dur="16s"
+          repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Subtitle neon text -->
     <text
       x="50%"
       y="63%"
       text-anchor="middle"
       dominant-baseline="middle"
-      fill="#ddd6fe"
+      fill="#e9d5ff"
       font-size="30"
       font-family="'Montserrat', 'Lato', Arial, sans-serif"
       font-weight="400"
-      letter-spacing="0.5">
-      Wickefest's Play~
+      letter-spacing="0.5"
+      filter="url(#subtleNeonText)">
+      Wickefest Play
     </text>
   </g>
 </svg>
