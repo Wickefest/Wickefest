@@ -92,14 +92,14 @@
     </circle>
 
     <!-- Pink moving spotlight -->
-    <circle r="180" fill="url(#pinkLight)" filter="url(#blur)" opacity="0.55">
+    <circle r="180" fill="url(#pinkLight)" filter="url(#blur)" opacity="0.90">
       <animate attributeName="cx" values="600;1040;860;300;140;600" dur="7.4s" begin="-2.6s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="40;170;330;270;90;40" dur="4.9s" begin="-1.3s" repeatCount="indefinite"/>
       <animate attributeName="r" values="150;210;170;230;180;150" dur="6.3s" begin="-3s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Green moving spotlight -->
-     <circle r="140" fill="url(#greenLight)" filter="url(#blur)" opacity="0.90">
+     <circle r="140" fill="url(#greenLight)" filter="url(#blur)" opacity="0.70">
       <animate attributeName="cx" values="240;740;1120;880;460;240" dur="8.1s" begin="-3.4s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="310;90;55;260;140;310" dur="5.8s" begin="-1.7s" repeatCount="indefinite"/>
       <animate attributeName="r" values="160;230;190;250;170;160" dur="6.6s" begin="-2.3s" repeatCount="indefinite"/>
