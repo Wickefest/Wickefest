@@ -19,5 +19,5 @@
 <p>
   🌟 Likes to explore new tech innovation and ideas!<br />
   Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.<br />
-  📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
+  📧 Let’s connect!: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
 </p>
