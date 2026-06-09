@@ -15,20 +15,18 @@
 
 <h2> About Me</h2>
 <!-- About Me-->
-<table style="border:none;">
-  <tr style="border:none;">
-      <td width="58%" valign="top" style="border:none;">
-        <ul>
-          <li>🌟 Likes to explore new tech innovation and ideas!</li>
-          <li>🥜 Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.</li>
-          <li>📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a></li>
-        </ul>
-      </td>
-      <td width="42%" align="center" valign="middle" style="border: none;">
-        <img src="assets/dance of spring.gif" width="330" alt="Spring GIF" />
-      </td>
-   </tr>
-</table>
+<h2>🚀 About Me</h2>
+
+<img align="right" src="assets/about.gif" width="360" alt="Coding GIF" />
+
+<ul>
+  <li>🌟 I like exploring new tech innovations and ideas.</li>
+  <li>🥜 Life's tough, but walnut is tougher.</li>
+  <li>🚧 I'm no expert. I just want it anti-tough.</li>
+  <li>📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a></li>
+</ul>
+
+<br clear="right" />
 
 <h3>🧲 Connect with me</h3>
 <p>
