@@ -1,41 +1,81 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="spotlightPurple" cx="50%" cy="50%" r="50%">
+    <radialGradient id="purpleLight" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
-      <stop offset="20%" stop-color="#a78bfa" stop-opacity="0.75"/>
-      <stop offset="50%" stop-color="#312e81" stop-opacity="0.5"/>
+      <stop offset="18%" stop-color="#c4b5fd" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#7c3aed" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="spotlightBlue" cx="50%" cy="50%" r="50%">
+    <radialGradient id="blueLight" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
-      <stop offset="22%" stop-color="#38bdf8" stop-opacity="0.55"/>
-      <stop offset="55%" stop-color="#1d4ed8" stop-opacity="0.35"/>
+      <stop offset="20%" stop-color="#7dd3fc" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="softBlur">
-      <feGaussianBlur stdDeviation="42"/>
+    <radialGradient id="pinkLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="20%" stop-color="#f0abfc" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#a21caf" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="48"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" fill="#020617"/>
+  <rect width="1200" height="360" fill="#020617"/>
 
-  <circle r="230" fill="url(#spotlightPurple)" filter="url(#softBlur)" opacity="0.95">
-    <animate attributeName="cx" values="350;600;850;600;350" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="160;70;160;250;160" dur="3s" repeatCount="indefinite"/>
+  <!-- Soft background glow so the full banner does not feel empty -->
+  <circle cx="600" cy="180" r="430" fill="#312e81" opacity="0.18" filter="url(#blur)"/>
+
+  <!-- Spotlight 1: purple, slow orbit -->
+  <circle r="230" fill="url(#purpleLight)" filter="url(#blur)" opacity="0.9">
+    <animate attributeName="cx" values="120;420;980;760;260;120" dur="6.2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;280;110;310;160;80" dur="5.4s" begin="-1.1s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="190;260;220;280;200;190" dur="4.8s" begin="-0.6s" repeatCount="indefinite"/>
   </circle>
 
-  <circle r="210" fill="url(#spotlightBlue)" filter="url(#softBlur)" opacity="0.8">
-    <animate attributeName="cx" values="850;600;350;600;850" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="160;250;160;70;160" dur="3s" repeatCount="indefinite"/>
+  <!-- Spotlight 2: blue, different path and timing -->
+  <circle r="220" fill="url(#blueLight)" filter="url(#blur)" opacity="0.78">
+    <animate attributeName="cx" values="1080;780;180;520;920;1080" dur="5.1s" begin="-1.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="290;70;240;100;310;290" dur="6.7s" begin="-0.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="210;250;180;270;220;210" dur="5.9s" begin="-2s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="50%" y="45%" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="72" font-family="Arial, sans-serif" font-weight="700">
+  <!-- Spotlight 3: faint pink, adds randomness -->
+  <circle r="180" fill="url(#pinkLight)" filter="url(#blur)" opacity="0.55">
+    <animate attributeName="cx" values="600;1040;860;300;140;600" dur="7.4s" begin="-2.6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="40;170;330;270;90;40" dur="4.9s" begin="-1.3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="150;210;170;230;180;150" dur="6.3s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Dark overlay to keep text readable -->
+  <rect width="1200" height="360" fill="#020617" opacity="0.22"/>
+
+  <text
+    x="50%"
+    y="46%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="white"
+    font-size="76"
+    font-family="Arial, sans-serif"
+    font-weight="700">
     Welcome!
   </text>
 
-  <text x="50%" y="62%" text-anchor="middle" dominant-baseline="middle" fill="#ddd6fe" font-size="28" font-family="Arial, sans-serif" font-weight="500">
+  <text
+    x="50%"
+    y="63%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="#ddd6fe"
+    font-size="30"
+    font-family="Arial, sans-serif"
+    font-weight="500">
     Nice to meet you
   </text>
 </svg>
