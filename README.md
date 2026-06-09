@@ -14,7 +14,6 @@
 <!-- About Me-->
 <h2>
   About Me
-  <img src="assets/dance of spring.gif" width="70" align="right" alt="Dance of Spring" />
 </h2>
 
 <p>
@@ -22,3 +21,4 @@
   Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.<br />
   📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
 </p>
+<img src="assets/dance of spring.gif" width="70" align="right" alt="Dance of Spring" />
