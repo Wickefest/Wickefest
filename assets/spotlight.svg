@@ -157,20 +157,5 @@
           repeatCount="indefinite"/>
       </text>
     </g>
-
-    <!-- Subtitle neon text -->
-    <text
-      x="55%"
-      y="63%"
-      text-anchor="middle"
-      dominant-baseline="middle"
-      fill="#e9d5ff"
-      font-size="30"
-      font-family="'Montserrat', 'Lato', Arial, sans-serif"
-      font-weight="400"
-      letter-spacing="0.5"
-      filter="url(#subtleNeonText)">
-      Wickefest's Play
-    </text>
   </g>
 </svg>
