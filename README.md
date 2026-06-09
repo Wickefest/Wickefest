@@ -12,21 +12,13 @@
 <hr>
 
 <!-- About Me-->
-<table>
-  <tr>
-    <td width="35%" align="center">
-      <img src="assets/dance of spring.gif" width="220" alt="About GIF" />
-    </td>
-    <td width="65%" valign="top">
-
-<h2>About Me</h2>
+<h2>
+  About Me
+  <img src="assets/dance of spring.gif" width="70" align="right" alt="Dance of Spring" />
+</h2>
 
 <p>
   🌟 Likes to explore new tech innovation and ideas!<br />
   Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.<br />
   📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
 </p>
-
-</td>
-  </tr>
-</table>
