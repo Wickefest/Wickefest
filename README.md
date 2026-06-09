@@ -12,12 +12,35 @@
 <hr>
 
 <!-- About Me-->
-<h2>
-  About Me
-</h2>
+<table>
+  <tr>
+    <td width="58%" valign="top">
 
+<h2> About Me</h2>
+<ul>
+  <li>🌟 Likes to explore new tech innovation and ideas!</li>
+  <li>🥜 Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.</li>
+  <li>📧 Let’s connect: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a></li>
+</ul>
+
+<h3>🧲 Connect with me</h3>
 <p>
-  🌟 Likes to explore new tech innovation and ideas!<br />
-  Life's tough, but walnut is tougher! I'm no expert. I just want it anti-tough.<br />
-  📧 Let’s connect!: <a href="mailto:alexanderrchuaa@gmail.com">alexanderrchuaa@gmail.com</a>
+  <a href="mailto:alexanderrchuaa@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/alexanderchuaa">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Wickefest">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
+
+</td>
+<td width="42%" align="center" valign="middle">
+
+<img src="assets/dance of spring.gif" width="330" alt="Spring GIF" />
+
+</td>
+  </tr>
+</table>
