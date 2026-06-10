@@ -25,7 +25,7 @@
 
 <h2 align="left"> 🚀 Languages & Tools </h2>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,bash,powershell,vercel,aws" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,bash,jupyter,powershell,vercel,aws" />
 </p><br>
 
 
@@ -65,5 +65,5 @@
 </p>
 <hr>
 <p align="center">
-  <em> Never gonna give you up, never gonna let you down </em>  
+  <em> Never gonna give you up, never gonna let you down ❤️ </em>  
 </p>
