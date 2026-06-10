@@ -36,10 +36,25 @@
   </a>
 </p>
 
-<h2 align="left">🚀 Language and Tools</h2>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,cs,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,powershell,vercel,aws" />
-</p>
+<h2 align="center">⚡ GitHub Stats</h2>
+  <p align="center">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=Wickefest&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+      height="170"
+      alt="GitHub Stats"
+    />
+    <img
+      src="https://github-readme-streak-stats.herokuapp.com/?user=Wickefest&theme=tokyonight&hide_border=true"
+      height="170"
+      alt="GitHub Streak"
+    />
+  </p>
 
-<hr>
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wickefest&layout=compact&theme=tokyonight&hide_border=true"
+    height="170"
+    alt="Top Languages"
+  />
+</p>
 
