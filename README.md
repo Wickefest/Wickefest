@@ -23,7 +23,7 @@
 </ul>
 <br clear="right" />
 
-<h2 align="center">🌐 Socials</h2>
+<h2 align="left">🌐 Socials</h2>
 <p align="center">
   <a href="mailto:alexanderrchuaa@gmail.com">
     <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -36,13 +36,13 @@
   </a>
 </p>
 
-<h2 align="center"> 🚀 Languages & Tools </h2>
+<h2 align="left"> 🚀 Languages & Tools </h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,vite,tailwind,bootstrap,dotnet,mysql,postgres,mongodb,supabase,git,github,docker,figma,vscode,visualstudio,linux,bash,powershell,vercel,aws" />
 </p>
 
-<h2 align="center">⚡ GitHub Stats</h2>
+<h2 align="left">⚡ GitHub Stats</h2>
 <p align="center">
   <img
     src="https://github-readme-stats.vercel.app/api?username=Wickefest&show_icons=true&hide_border=false&bg_color=0D1117&title_color=F97316&text_color=E5E7EB&icon_color=F97316&border_color=262626&rank_icon=github"
