@@ -23,14 +23,24 @@
 </ul>
 <br clear="right" />
 
-<hr>
-
-<h2> Socials </h2>
+<h2 align="center">🌐 Socials</h2>
 <p align="center">
   <a href="mailto:alexanderrchuaa@gmail.com">
-    <img src="https://img.shields.io/badge/Alex%20Chua-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+    <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
   <a href="https://www.linkedin.com/in/alexanderchuaa">
-    <img src="https://img.shields.io/badge/Alexander%20Chua-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+    <img src="https://img.shields.io/badge/Alexander%20Chua-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Wickefest">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
+
+<hr>
+<h2 align="center">🧰 Language and Tools</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,vite,tailwind,bootstrap,dotnet,mysql,postgres,mongodb,supabase,git,github,docker,figma,vscode,visualstudio,linux,bash,powershell,vercel,aws" />
+</p>
+
+<hr>
+
