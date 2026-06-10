@@ -36,9 +36,9 @@
   </a>
 </p>
 
-<h2 align="left">Language and Tools</h2>
+<h2 align="left">🚀 Language and Tools</h2>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,cs,react,nextjs,nodejs,express,vite,tailwind,bootstrap,dotnet,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,powershell,vercel,aws" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,cs,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,powershell,vercel,aws" />
 </p>
 
 <hr>
