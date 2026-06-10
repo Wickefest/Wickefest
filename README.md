@@ -39,7 +39,7 @@
 <hr>
 <h2 align="center">🧰 Language and Tools</h2>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,vite,tailwind,bootstrap,dotnet,mysql,postgres,mongodb,supabase,git,github,docker,figma,vscode,visualstudio,linux,bash,powershell,vercel,aws" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,cpp,cs,react,nextjs,nodejs,express,vite,tailwind,bootstrap,dotnet,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,powershell,vercel,aws" />
 </p>
 
 <hr>
