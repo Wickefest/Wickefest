@@ -26,9 +26,10 @@
 <h2 align="left"> 🚀 Languages & Tools </h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,cs,react,nextjs,nodejs,express,tailwind,bootstrap,mysql,postgres,supabase,git,github,docker,figma,vscode,visualstudio,bash,powershell,vercel,aws" />
-</p>
+</p><br>
 
-<h2 align="left">⚡ GitHub Stats</h2>
+
+<h2 align="left">📊 GitHub Stats</h2>
 <p align="center">
   <img
     src="https://github-readme-stats.vercel.app/api?username=Wickefest&show_icons=true&hide_border=false&bg_color=0D1117&title_color=F97316&text_color=E5E7EB&icon_color=F97316&border_color=262626&rank_icon=github"
@@ -61,4 +62,8 @@
   <a href="https://github.com/Wickefest">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+</p>
+<hr>
+<p align="center">
+  <em> Never gonna give you up, never gonna let you down </em>  
 </p>
