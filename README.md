@@ -32,24 +32,13 @@
 <h2 align="left">📊 GitHub Stats</h2>
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Wickefest&show_icons=true&hide_border=false&bg_color=0D1117&title_color=F97316&text_color=E5E7EB&icon_color=F97316&border_color=262626&rank_icon=github"
-    height="170"
-    alt="GitHub Stats"
-  />
-  <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=Wickefest&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF&border=262626"
     height="170"
     alt="GitHub Streak"
   />
 </p>
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wickefest&layout=compact&hide_border=false&bg_color=0D1117&title_color=F97316&text_color=E5E7EB&border_color=262626"
-    height="170"
-    alt="Top Languages"
-  />
-</p>
+
 
 <h2 align="left">🌐 Socials</h2>
 <p align="center">
