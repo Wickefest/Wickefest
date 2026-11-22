@@ -75,6 +75,6 @@ More on my [portfolio](https://achuaspace.vercel.app).
   </picture>
 </p>
 
-<p align="center"><em>Pour your heart and soul into everything you do.</em></p>
+<p align="center"><em>❤️Pour your heart and soul into everything you do.❤️</em></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=F97316&height=100&section=footer" width="100%" alt="" />
