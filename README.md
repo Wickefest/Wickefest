@@ -21,8 +21,8 @@
 I study Computer Science with a focus on Machine Learning and AI at the University of London, through SIM Global Education. I enjoy exploring new tech and turning ideas into things people can actually use.
 
 - Right now I'm digging into **CI/CD, cloud, algorithms and Next.js**
-- What I care about: **curiosity, care, connecting people, and clean code**
-- Life's tough, but walnut is tougher. I'm no expert. I just want it anti-tough.
+- What I care about: **curiosity, care, connecting people, continuous learning**
+- Sometimes life may not be as easy-going as it seems, but trust me, it will get better every second! 
 
 <p align="center">
   <img src="assets/dance%20of%20spring.gif" width="420" alt="Animated spring scene" />
@@ -59,6 +59,7 @@ More on my [portfolio](https://achuaspace.vercel.app).
 ## Highlights
 
 - **Best Use of Microsoft Stack Award**, SIM IT HackExperience Hackathon (2026)
+- **Tech4City Huawei Competition - First Runner Up (2026)**
 - AWS Certified Cloud Practitioner
 - Microsoft Azure AI Fundamentals
 - IBM AI Engineering and IBM Data Science Professional Certificates
