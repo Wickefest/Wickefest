@@ -26,7 +26,6 @@
 - 🌟 I like exploring new tech, innovations and ideas
 - 🌿 Currently focusing on **CI/CD, cloud technologies, algorithms and Next.js**
 - 🤝 Values: **Curiosity · Care · Connect · Code**
-- 🥜 Life's tough, but walnut is tougher. I'm no expert. I just want it anti-tough.
 - 📫 Reach me at **alexanderrchuaa@gmail.com**
 
 <br clear="right" />
