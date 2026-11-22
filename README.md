@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://achuaspace.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=440&lines=Computer+Science+(ML+%26+AI)+%40+UOL;AI%2FML+%C2%B7+Cloud+%C2%B7+Full-stack;Turning+ideas+into+practical+impact" alt="Computer Science (ML and AI) at UOL. AI/ML, cloud and full-stack. Turning ideas into practical impact." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=440&lines=Computer+Science+(ML+%26+AI)+%40+UOL;AI%2FML+%C2%B7+Cloud+%C2%B7+Full-stack;Turning+ideas+into+practical+impact" alt="Computer Science (ML and AI) at UOL. AI/ML, cloud and full-stack. Turning ideas into practical impact!" />
   </a>
 </p>
 
