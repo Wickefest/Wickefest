@@ -2,7 +2,7 @@
   <img src="./assets/spotlight.svg" alt="Welcome spotlight banner" />
 </p>
 
-<h1 align="center">Hi, I'm Alex Chua 👋</h1>
+<h1 align="center">Hi, I'm Alexander Chua 👋</h1>
 
 <p align="center">
   <a href="https://achuaspace.vercel.app">
